@@ -5,3 +5,4 @@ Scripts for auto changing wallpapers
 * Python 2.x
 * Requests
 * BeautifulSoup4
+* lxml
