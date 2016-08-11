@@ -12,11 +12,12 @@ import os
 
 MONITORS = 1
 DESTINATION = "/home/{0}/.wallpapers".format(getuser())
+KEY_WORD=""
 RESOLUTIONS = "1920x1080"
 RATIOS = "16x9"
 CATEGORIES = "100"  # General Anime People
 PURITY = "100"  # SFW NSFW 0
-URL = "https://alpha.wallhaven.cc/random?categories={0}&purity={1}&resolutions={2}&ratios={3}".format(CATEGORIES, PURITY, RESOLUTIONS, RATIOS)
+URL = "https://alpha.wallhaven.cc/search?q={0}&categories={1}&purity={2}&resolutions={3}&ratios={4}&sorting=random&order=desc&page=2".format(KEY_WORD, CATEGORIES, PURITY, RESOLUTIONS, RATIOS)
 
 DELAY = 60 * 15
 
